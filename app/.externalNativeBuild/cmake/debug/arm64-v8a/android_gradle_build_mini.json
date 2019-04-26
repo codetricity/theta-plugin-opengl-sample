@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/craig/Development/ricoh/plugin/opengl/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "openGL-library-Debug-arm64-v8a": {
+      "artifactName": "openGL-library",
+      "buildCommand": "/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/arm64-v8a --target openGL-library",
+      "abi": "arm64-v8a",
+      "output": "/home/craig/Development/ricoh/plugin/opengl/app/build/intermediates/cmake/debug/obj/arm64-v8a/libopenGL-library.so"
+    }
+  }
+}

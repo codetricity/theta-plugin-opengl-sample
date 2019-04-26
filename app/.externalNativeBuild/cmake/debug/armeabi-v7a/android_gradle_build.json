@@ -1,0 +1,134 @@
+
+{
+	"buildFiles" : [ "/home/craig/Development/ricoh/plugin/opengl/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"openGL-library-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "openGL-library",
+			"buildCommand" : "/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a --target openGL-library",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/ndk-app.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/ES20_impl.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support_ndk.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/RawData_impl.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/RawPixelImage_impl.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/openGL/open-gl.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_CompressedTexture_KtxImage.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_CompressedTexture_PkmImage.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_CompressedTexture_PvrtcImage.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_Shader.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_Sprite.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_Texture.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_Texture_RawPixelImage.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_gl_Vector.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi24 --gcc-toolchain=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DopenGL_library_EXPORTS -I../../../../src/main/jni/support -I../../../../src/main/jni -I../../../../src/main/jni/openGL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -mfpu=neon -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/support/support_RawData.c",
+					"workingDirectory" : "/home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/home/craig/Development/ricoh/plugin/opengl/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libopenGL-library.so",
+			"toolchain" : "8714399305951830179"
+		}
+	},
+	"toolchains" : 
+	{
+		"8714399305951830179" : 
+		{
+			"cCompilerExecutable" : "/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/craig/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

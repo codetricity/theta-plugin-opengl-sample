@@ -1,0 +1,26 @@
+[1/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/RawPixelImage_impl.c.o
+[2/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/ndk-app.c.o
+[3/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/ES20_impl.c.o
+/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/ES20_impl.c:103:54: warning: passing 'GLchar *' (aka 'char *') to parameter of type 'jbyte *' (aka 'signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    (*env)->GetByteArrayRegion(env, cnv, 0, env_len, str);
+                                                     ^~~
+1 warning generated.
+[4/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support_ndk.c.o
+/home/craig/Development/ricoh/plugin/opengl/app/src/main/jni/ndk-app.c:103:18: warning: assigning to 'char *' from 'const char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        app->url = (*env)->GetStringUTFChars(env, (*env)->GetObjectField(env, instance, field_url), 0);
+                 ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+[5/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/RawData_impl.c.o
+[6/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl.c.o
+[7/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/openGL/open-gl.c.o
+[8/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support.c.o
+[9/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_KtxImage.c.o
+[10/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_PkmImage.c.o
+[11/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_PvrtcImage.c.o
+[12/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Texture_RawPixelImage.c.o
+[13/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Shader.c.o
+[14/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Sprite.c.o
+[15/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Texture.c.o
+[16/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Vector.c.o
+[17/18] Building C object CMakeFiles/openGL-library.dir/src/main/jni/support/support_RawData.c.o
+[18/18] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/libopenGL-library.so

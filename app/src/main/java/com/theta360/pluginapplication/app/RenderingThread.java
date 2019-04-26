@@ -311,14 +311,17 @@ public class RenderingThread extends Thread {
             EGLDevice windowDevice = app.platform.windowDevice;
 
             // 一度描画を停止させる
+            // stop drawing temporarily
             final Status temp = status;
             status = Status.PAUSE;
             waitUnbindDevice();
 
             // EGLSurfaceの再構築を行わせる
+            // rebuild EGLSurface
             windowDevice.onSurfaceChanged(surface, width, height);
 
             // 状態を元に戻す
+            // return to original
             status = temp;
         }
 

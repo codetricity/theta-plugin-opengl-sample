@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "/home/craig/Development/ricoh/plugin/opengl/app/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "openGL-library-Release-armeabi-v7a": {
+      "artifactName": "openGL-library",
+      "buildCommand": "/home/craig/Android/24.4.1/cmake/3.6.4111459/bin/cmake --build /home/craig/Development/ricoh/plugin/opengl/app/.externalNativeBuild/cmake/release/armeabi-v7a --target openGL-library",
+      "abi": "armeabi-v7a",
+      "output": "/home/craig/Development/ricoh/plugin/opengl/app/build/intermediates/cmake/release/obj/armeabi-v7a/libopenGL-library.so"
+    }
+  }
+}

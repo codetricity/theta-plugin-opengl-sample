@@ -1,0 +1,19 @@
+# ninja log v5
+0	73	0	CMakeFiles/openGL-library.dir/src/main/jni/RawPixelImage_impl.c.o	fa7d35e308bfa8c9
+0	85	0	CMakeFiles/openGL-library.dir/src/main/jni/ES20_impl.c.o	26c25879d7cf2498
+0	88	0	CMakeFiles/openGL-library.dir/src/main/jni/ndk-app.c.o	6d0a7977b9c50182
+88	192	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl.c.o	1addd70adbc15e6e
+85	194	0	CMakeFiles/openGL-library.dir/src/main/jni/RawData_impl.c.o	27abdc70798233c2
+73	196	0	CMakeFiles/openGL-library.dir/src/main/jni/support_ndk.c.o	a35b802298ea57c2
+193	252	0	CMakeFiles/openGL-library.dir/src/main/jni/openGL/open-gl.c.o	2e64cf1970da066c
+194	262	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support.c.o	9d0cf697c5e56f7
+196	280	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_KtxImage.c.o	e3d16a8af41857f8
+252	319	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_PkmImage.c.o	a0ca3e8e7e18a0f0
+262	348	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_CompressedTexture_PvrtcImage.c.o	48de983017dccaed
+280	353	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Texture_RawPixelImage.c.o	3b344f3bcc82bb55
+353	404	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Texture.c.o	277f41dcd22b46cf
+319	419	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Shader.c.o	f0b1903274ed0f84
+348	421	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Sprite.c.o	2b2d9f06e4453d6c
+404	474	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_gl_Vector.c.o	bdd227d616e753c5
+419	506	0	CMakeFiles/openGL-library.dir/src/main/jni/support/support_RawData.c.o	adf5998cd30f8eee
+506	528	0	../../../../build/intermediates/cmake/debug/obj/x86_64/libopenGL-library.so	75f455e769a9f30e
